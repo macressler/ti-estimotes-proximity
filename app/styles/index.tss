@@ -1,0 +1,130 @@
+".container": {
+	backgroundColor:"white",
+	layout: "vertical"
+},
+
+"TextField": {
+	width: 100,
+	borderWidth: 1,
+	borderColor: "#999"
+}
+
+"#trace": {
+	width: 320,
+	height: 400,
+	layout: "vertical"
+}
+"#uuid": {
+	width: 300,
+	font: {
+		fontSize: 14
+	}
+}
+
+".fieldContainer": {
+	layout: "horizontal",
+	height: 32
+}
+
+"#deviceTitle": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	top: 10,
+	left: 5
+}
+
+"#blueberry": {
+	backgroundColor:"#404093",
+	height: 100,
+	width: 250,
+	top: 10
+}
+
+"#blueberryProximity": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	font: {
+		fontSize: 30
+		},
+	color: "#000",
+	top: 30,
+	left: 5
+}
+
+"#blueberryRSSI":{
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	font: {
+		fontSize: 30
+		},
+	color: "#000",
+	top: 30,
+	right: 5
+}
+
+"#marshmellow": {
+	backgroundColor:"#94d8f8",
+	height: 100,
+	width: 250,
+	top: 10
+}
+
+"#marshmellowProximity": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	font: {
+		fontSize: 30
+		},
+	color: "#000",
+	top: 30,
+	left: 5
+}
+
+"#marshmellowRSSI":{
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	font: {
+		fontSize: 30
+		},
+	color: "#000",
+	top: 30,
+	right: 5
+}
+
+"#mint": {
+	backgroundColor:"#a0cbad",
+	height: 100,
+	width: 250,
+	top: 10
+}
+
+"#mintProximity": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	font: {
+		fontSize: 30
+		},
+	color: "#000",
+	top: 30,
+	left: 5
+}
+
+"#mintRSSI":{
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	font: {
+		fontSize: 30
+		},
+	color: "#000",
+	top: 30,
+	right: 5
+}
+
+"#adspace": {
+	top: 10,
+	width: 141,
+	height: 100,
+	backgroundColor: '#fff'
+}
+

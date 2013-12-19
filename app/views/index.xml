@@ -1,0 +1,36 @@
+<Alloy>
+	<Window id="win">
+
+		<View class="container">
+			
+			<View height="30"/>
+		
+			<View layout="horizontal" height="35">
+				<Label>Ranging</Label>
+				<Switch id="rangingSwitch" value="false" onChange="toggleRanging"/>
+			</View>
+		
+			<View id="blueberry">
+				<Label id="deviceTitle">Blueberry Pie</Label>
+				<Label id="blueberryProximity">Proximity</Label>
+				<Label id="blueberryRSSI">RSSI</Label>
+			</View>
+
+			<View id="marshmellow">
+				<Label id="deviceTitle">Icy Marshmellow</Label>
+				<Label id="marshmellowProximity">Proximity</Label>
+				<Label id="marshmellowRSSI">RSSI</Label>
+			</View>
+
+			<View id="mint">
+				<Label id="deviceTitle">Mint Cocktail</Label>
+				<Label id="mintProximity">Proximity</Label>
+				<Label id="mintRSSI">RSSI</Label>
+			</View>
+
+			<ImageView id="adspace"/>
+		
+		</View>
+
+	</Window>
+</Alloy>
